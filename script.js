@@ -11,7 +11,3 @@ if (d!=0) {
 	day = days[d-1];
 	var inputText = document.getElementById(day);
 }
-else {
-	innerHTML = "<mark>" + "Hai" + " </mark>";
-	document.getElementById("Hai").innerHTML = innerHTML;
-}
