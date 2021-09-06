@@ -1,7 +1,7 @@
 var d = new Date().getDay();
 if (d!=0) {
 	var days = ['Hai','Ba','Tư','Năm','Sáu','Bảy'];
-	var day = days[d];
+	var day = days[d-1];
 	var inputText = document.getElementById(day);
 	var index = 7;
 	if (index >= 0) {
